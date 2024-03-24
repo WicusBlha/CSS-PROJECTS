@@ -1,0 +1,628 @@
+/* FONT (From Google Fonts) */
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+/* BACKGROUND */
+
+body {
+	background: url('https://i.imgur.com/2fzxFNZ.jpeg') no-repeat center center fixed;background-size: cover;
+	background-size: 100%;
+	font-family: 'Cabin', sans-serif;
+	color: #b72c33;
+}
+.center.b {
+	color: #b72c33 !important;
+}
+element.style {
+color: #b72c33
+}
+
+/* FEED ALL, PLAY ALL */
+
+.feature {
+	background: rgba(183, 44, 51, 0.6) !important;
+	color: #3c231f !important;
+	border: none !important;
+	border-radius: 5px !important;
+}
+
+
+/* TOPBAR ("Welcome back, ___"), NAVBAR (Den/Crossroads/Etc.) */
+
+.topbar {
+	background: rgba(183, 44, 44), 0.6);
+	border: none;
+	border-top: none;
+	color: #3c231f;
+	border-radius: 5px;
+	font-family: 'Cabin', sans-serif;
+}
+
+.navbar {
+	background: rgba(183, 44, 44, 0.6);
+	border-bottom: none;
+	font-family: 'Cabin', sans-serif;
+	color: #3c231f;
+	border-radius: 5px;
+}
+
+.navbar li a {
+	color: #3c231f !important;
+}
+
+/* NAVBAR HOVER COLOR */
+
+.navbar li a:hover {
+	background: rgba(245, 125, 100, 0.6) !important;
+}
+
+
+/* MAIN PANEL */
+
+/* RIGHT SIDE */
+.container.main {
+	background: rgba(183, 44, 44, 0.6);
+	border: none;
+	box-shadow: none;
+	border-radius: 5px;
+}
+
+/* LEFT SIDE */
+.col-md-9 {
+	background: none;
+}
+
+
+/* BREADCRUMB (Home / Den) */
+
+.breadcrumb {
+	background: rgba(183, 44, 44, 0.6);
+}
+
+.breadcrumb .active {
+	color: #f57d64;
+}
+
+
+/* ALERTS (ie. "Your lionesses have returned from hunting!") */
+
+.alert {
+	background: rgba(118, 35, 43, 0.6);
+	border: none;
+	color: #f9c3af;
+}
+
+.alert-warning,
+.alert-danger {
+	background: rgba(118, 35, 43, 0.6);
+	color: #f9c3af;
+}
+
+
+/* "King Dynasty, Pride Dynasty, Achievements, Showcase" Panels */
+
+.feature,
+div.left {
+	background: rgba(183, 44, 44, 0.6);
+	border: none;
+}
+
+
+/* ENERGY BARS, ACHIEVEMENTS, & BOOKMARKS */
+
+.panel {
+	background: rgba(220, 120, 105, 0.6) !important;
+	box-shadow: none !important;
+	border: none !important;
+	color: #95323d !important;
+	border-radius: 0px;
+}
+
+/* ENERGY BAR BACKGROUND */
+.progress {
+	background: rgba(244, 119, 103, 0.6);
+	color: #f35c53 !important;
+}
+
+/* ENERGY BAR TEXT */
+.progress div {
+	color: #b72c33 !important;
+}
+
+/* ENERGY BAR COLOR */
+.progress-bar {
+	background: rgba(212, 139, 141, 0.6);
+	color: #8c272c !important;
+}
+
+
+/* CHAT */
+
+.s-chat-message:nth-child(even) {
+	background: #d16c67 !important;
+	border: none !important;
+}
+
+.s-chat-message:nth-child(odd) {
+	background: #5b2221 !important;
+	border: none !important;
+}
+
+/* PINNED MESSAGE */
+.s-chat-message__pinned {
+	background: #42251d !important;
+	color: #f9c4ad !important;
+	border: none !important;
+}
+
+.s-chat-message_timestamp {
+	color: #f89172 !important;
+}
+
+div#chatMessageContainer {
+	border: none !important;
+}
+
+/* CURRENT CHANNEL TAB (MAIN, SALES, ETC.) */
+button#label_currentChannel {
+	border: none !important;
+	background: #5b2221 !important;
+}
+
+
+/* BIGGEST HEADER ("___"'s DEN) */
+
+h1 {
+	color: #f47f5e;
+	font-size: 72px;
+	text-align: center;
+}
+
+
+/* MEDIUM HEADER */
+
+h2 {
+	color: #f47f5e;
+	font-size: 24px;
+	text-align: center;
+}
+
+
+/* SMALL HEADER */
+
+h3 {
+	color: #f47f5e !important;
+	font-size: 14px !important
+}
+
+
+/* LION INFO TABLE (Level, Stats, Branch, Territory Count, Etc.) */
+
+
+/* PANEL BACKGROUND COLOR */
+.table {
+	background: rgba(245, 116, 110, 0.6);
+	border: none !important;
+	border-collapse: separate;
+	border-radius: 5px;
+}
+
+
+/* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
+.top,
+.bottom,
+th {
+	background: rgba(244, 127, 127, 0.6) !important;
+	color: #76232b !important;
+	border-radius: 5px;
+}
+
+
+/* Block of color where "Territory Description, Player Name, Avatar URL" etc. are */
+
+.table .left {
+	background: rgba(231, 148, 128, 0.6)
+}
+
+/* Affects the color behind your territory description, player name, etc. */
+
+input,
+select,
+textarea {
+	background: rgba(231, 148, 128, 0.6) !important;
+	border: none !important;
+	border-color: black;
+	border-radius: 5px;
+	box-shadow: none !important;
+	color: black !important;
+	text-shadow: none !important;
+}
+
+
+/* Color behind "Level, Stats, Branch, Territory" etc. */
+
+.inner-table .left {
+	background: rgba(243, 92, 92, 0.6) !important;
+}
+
+
+/* Color behind the number of all of the things above */
+
+.inner-table .right {
+	background: rgba(245, 125, 125, 0.6)
+}
+
+/* IGNORE */
+.right_odd {
+	background: none !important;
+}
+
+
+/* ACCOUNT OPTIONS PANELS  (Friend Requests Toggles, etc.) */
+
+.item-header {
+	background: rgba(183, 44, 44, 0.6) !important;
+	color: #f9c4ad  !important;
+}
+
+.item {
+	background: rgba(183, 44, 44, 0.6) !important;
+	border: none !important;
+}
+
+
+/* BEETLE MOUND TOPBAR (Where it says Beetle Training Grounds, Beetle Battling, etc.) */
+
+.sub_menu {
+	background: rgba(209, 108, 108, 0.6) !important;
+}
+
+.sub_menu_item_selected {
+	background: rgba(244, 118, 118, 0.6) !important;
+}
+
+
+/* Affects the color behind "_ Unsorted", "_ Pregnant Lionesses", etc. and cave/mound names */
+
+.cave-grid,
+.mound-grid {
+	background: rgba(118, 35, 35, 0.6);
+	border: none !important;
+}
+
+
+/* LINKS & LINK HOVER COLOR */
+
+a:link,
+a:visited {
+	color: #f4886e !important;
+}
+
+a:hover {
+	color: #8e3538 !important;
+}
+
+
+/* BOXES (Copy paste to add more or less) */
+
+.boxcontainer {
+	background: none;
+	height: auto;
+	padding: 0px;
+	justify-content: center;
+	display: flex;
+}
+
+.Box1 {
+	float: left;
+	background: #b72c33;
+	color: #f9c3af;
+	padding: 0px;
+	border: 1px solid #5b2221;
+	border-radius: 0px;
+	margin: 0px;
+	float: right;
+	overflow: auto;
+	height: 250px;
+	width: 250px;
+	margin-bottom: 0px;
+	transition: 4s;
+}
+
+.Box2 {
+	float: left;
+	background: #b72c33;
+	color: #f9c3af;
+	padding: 0px;
+	border: 1px solid #5b2221;
+	border-radius: 0px;
+	margin: 0px;
+	height: 250px;
+	width: 400px;
+	transition: 1s;
+	overflow: auto;
+}
+
+.Box3 {
+	float: left;
+	background: #b72c33;
+	color: #f9c3af;
+	padding: 0px;
+	border: 1px solid #5b2221;
+	border-radius: 0px;
+	margin: 0px;
+	height: 0px;
+	width: 0px;
+	transition: 1s;
+	overflow: auto;
+
+}
+
+.hoverbox1 {
+	float: left;
+	background: #b72c33;
+	color: #f9c3af;
+	padding: 0px;
+	border: 0px solid #5b2221;
+	border-radius: 0px;
+	margin: 0px;
+	float: right;
+	overflow: auto;
+	height: 62px;
+	width: 250px;
+	margin-bottom: 15px;
+	transition: 4s;
+}
+
+.hoverbox1:hover {
+	height: 0px;
+	width: 0px;
+}
+
+.hoverbox2 {
+	float: left;
+	background: #b72c33;
+	color: #f9c3af;
+	padding: 0px;
+	border: 0px solid #5b2221;
+	border-radius: 0px;
+	margin: 0px;
+	float: right;
+	overflow: auto;
+	height: 0px;
+	width: 0px;
+	margin-bottom: 0px;
+	transition: 4s;
+}
+
+.hoverbox2:hover {
+	height: 0px;
+	width: 0px;
+}
+
+.hoverbox3 {
+	float: left;
+	background: #b72c33;
+	color: #f9c3af;
+	padding: 0px;
+	border: 1px solid #5b2221;
+	border-radius: 0px;
+	margin: 10px;
+	float: right;
+	overflow: auto;
+	height: 0px;
+	width: 0px;
+	margin-bottom: 0px;
+	transition: 4s;
+}
+
+.hoverbox3:hover {
+	height: 0px;
+	width: 0px;
+}
+
+/* SCROLL BAR */
+
+::-webkit-scrollbar {
+	width: 7px;
+	height: 7px;
+}
+
+
+/* SCROLL BAR BACKGROUND */
+
+::-webkit-scrollbar-track {
+	background: #3d2420;
+}
+
+
+/* SCROLL BAR "THUMB" */
+
+::-webkit-scrollbar-thumb {
+	background: #a95958;
+	border-radius: 4px;
+}
+
+
+/* LION AND USER AVATAR OPACITY */
+
+div#lion_image {
+	opacity: 0.5;
+}
+
+table#player img {
+	opacity: 0.5;
+}
+
+
+/* CIRCULAR LION AND USER AVATAR */
+
+div#lion_image {
+	border-radius: 30% !important;
+	overflow: hidden;
+	margin-top: 17px;
+	margin-left: 6px;
+	
+}
+
+table#player img {
+	border-radius: 50% !important;
+	overflow: hidden;
+}
+
+
+/* LIODEN LOGO REPLACER */
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+	content: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6aea9a72-b071-442b-966e-bc3308037dd7/dbqiwvm-d1f1c778-555c-4dda-ac37-79c5cefd4b7f.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNmFlYTlhNzItYjA3MS00NDJiLTk2NmUtYmMzMzA4MDM3ZGQ3XC9kYnFpd3ZtLWQxZjFjNzc4LTU1NWMtNGRkYS1hYzM3LTc5YzVjZWZkNGI3Zi5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.IfHJa7ws6GvsLoiWmB2fRGOCrGdZDBUDlJwimtgjopg');
+}
+
+
+/* PREGNANT LIONESSES */
+
+div.cave-grid>img {
+	content: url('https://i.imgur.com/d2nJxyH.png')!important;
+}
+
+/* CAVES (Copy paste to add more) */
+
+a[href$="cave ID here"]>div.cave-grid>img {
+	content: url('IMG URL HERE')!important;
+}
+a[href$="cave ID here"]>div.cave-grid>img {
+	content: url('URL HERE')!important;
+}
+a[href$="cave ID here"]>div.cave-grid>img {
+	content: url('URL HERE')!important;
+}
+
+
+/* UNSORTED */
+
+a[href$="unsorted.php?id=USERID"]>div.cave-grid>img {
+	content: url('IMAGE URL HERE')!important;
+}
+
+
+/* PRIDE OVERVIEW */
+
+a[href$="lionoverview.php?id=USERID"]>div.cave-grid>img {
+	content: url('IMAGE URL HERE')!important;
+}
+
+
+/* MOUNDS */
+
+.mound-grid img {
+	background: url('https://i.imgur.com/07sX0jK.png');
+	width: 0;
+	height: 0;
+	padding-top: 80px;
+	padding-right: 130px;
+}
+.credit {
+background: rgba(84, 37, 27, 0.7);
+
+color: #b38d68;
+
+z-index:100;
+
+padding: 10px;
+
+border: none;
+
+position: fixed;
+
+text-align: center;
+
+border-radius: 5px;
+
+left: 0px;
+
+bottom: 0px;
+
+width: auto;
+
+height: auto;
+
+overflow: auto;
+
+border-width: 2px !important;
+
+border-style: solid !important;
+
+border-color: rgba(0,0,0) !important;
+
+border-image: initial !important;
+
+border: none !important;
+}
+.credit {
+background: rgba(84, 37, 27, 0.7);
+
+color: #000000;
+
+z-index:100;
+
+padding: 10px;
+
+border: none;
+
+position: fixed;
+
+text-align: center;
+
+border-radius: 5px;
+
+left: 0px;
+
+bottom: 0px;
+
+width: auto;
+
+height: auto;
+
+overflow: auto;
+
+border-width: 2px !important;
+
+border-style: solid !important;
+
+border-color: rgba(0,0,0) !important;
+
+border-image: initial !important;
+
+border: none !important;
+}
+<div class="credit">Credit:<a href="https://www.lioden.com/topic.php?id=304429423031" > css by Ghost Eyes #108692! :love: </a></div>
+ }
+.center.b {
+    color: #5b1d1b !important;
+}
+element.style {
+color: #f9b399
+}
+/* SB */
+
+    img[src$="icon-beetle-silver.png"] {
+    display: inline-block;
+    box-sizing: border-box;
+    background: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c393c819-2ff5-4e12-9b48-a592cad192b5/d8vkolt-789d65cf-685c-409e-9640-de8739852e63.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYzM5M2M4MTktMmZmNS00ZTEyLTliNDgtYTU5MmNhZDE5MmI1XC9kOHZrb2x0LTc4OWQ2NWNmLTY4NWMtNDA5ZS05NjQwLWRlODczOTg1MmU2My5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.yaauS3JhCUpb9Qz4uXHepAUyPS0eVcTLPhWIbHHnBmY) 0 0 / contain no-repeat;
+    width: 20px;
+    height: 20px;
+    padding-left: 20px;
+    filter: grayscale(10%) opacity(90%);
+    transition: 0.5s !important;
+}
+/* GB */
+
+    img[src$="icon-beetle-gold.png"] {
+    display: inline-block;
+    box-sizing: border-box;
+    background: url(https://i.imgur.com/utCUnsu.png) 0 0 / contain no-repeat;
+    width: 20px;
+    height: 20px;
+    padding-left: 20px;
+    filter: grayscale(10%) opacity(90%);
+    transition: 0.5s !important;
+}
