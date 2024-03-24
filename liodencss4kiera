@@ -1,0 +1,238 @@
+/* FONT (From Google Fonts) */
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+/* BACKGROUND */
+
+body {
+	background: url('MINECRAFT_BACKGROUND_URL_HERE') no-repeat center center fixed;
+	background-size: cover;
+	font-family: 'Cabin', sans-serif;
+	color: #b72c33;
+}
+
+.center.b {
+	color: #5b1d1b !important;
+}
+
+/* FEED ALL, PLAY ALL */
+
+.feature {
+	background: rgba(183, 44, 51, 0.6) !important;
+	color: #3c231f !important;
+	border: none !important;
+	border-radius: 5px !important;
+}
+
+/* TOPBAR ("Welcome back, ___"), NAVBAR (Den/Crossroads/Etc.) */
+
+.topbar {
+	background: rgba(183, 44, 44, 0.6);
+	border: none;
+	border-top: none;
+	color: #3c231f;
+	border-radius: 5px;
+	font-family: 'Cabin', sans-serif;
+}
+
+.navbar {
+	background: rgba(183, 44, 44, 0.6);
+	border-bottom: none;
+	font-family: 'Cabin', sans-serif;
+	color: #3c231f;
+	border-radius: 5px;
+}
+
+.navbar li a {
+	color: #3c231f !important;
+}
+
+/* NAVBAR HOVER COLOR */
+
+.navbar li a:hover {
+	background: rgba(245, 125, 100, 0.6) !important;
+}
+
+/* MAIN PANEL */
+
+/* RIGHT SIDE */
+.container.main {
+	background: rgba(183, 44, 44, 0.6);
+	border: none;
+	box-shadow: none;
+	border-radius: 5px;
+}
+
+/* LEFT SIDE */
+.col-md-9 {
+	background: none;
+}
+
+/* BREADCRUMB (Home / Den) */
+
+.breadcrumb {
+	background: rgba(183, 44, 44, 0.6);
+}
+
+.breadcrumb .active {
+	color: #f57d64;
+}
+
+/* ALERTS (ie. "Your lionesses have returned from hunting!") */
+
+.alert {
+	background: rgba(118, 35, 43, 0.6);
+	border: none;
+	color: #f9c3af;
+}
+
+.alert-warning,
+.alert-danger {
+	background: rgba(118, 35, 43, 0.6);
+	color: #f9c3af;
+}
+
+/* "King Dynasty, Pride Dynasty, Achievements, Showcase" Panels */
+
+.feature,
+div.left {
+	background: rgba(183, 44, 44, 0.6);
+	border: none;
+}
+
+/* ENERGY BARS, ACHIEVEMENTS, & BOOKMARKS */
+
+.panel {
+	background: rgba(220, 120, 105, 0.6) !important;
+	box-shadow: none !important;
+	border: none !important;
+	color: #95323d !important;
+	border-radius: 0px;
+}
+
+/* ENERGY BAR BACKGROUND */
+.progress {
+	background: rgba(244, 119, 103, 0.6);
+	color: #f35c53 !important;
+}
+
+/* ENERGY BAR TEXT */
+.progress div {
+	color: #b72c33 !important;
+}
+
+/* ENERGY BAR COLOR */
+.progress-bar {
+	background: rgba(212, 139, 141, 0.6);
+	color: #8c272c !important;
+}
+
+/* CHAT */
+
+.s-chat-message:nth-child(even) {
+	background: #d16c67 !important;
+	border: none !important;
+}
+
+.s-chat-message:nth-child(odd) {
+	background: #5b2221 !important;
+	border: none !important;
+}
+
+/* PINNED MESSAGE */
+.s-chat-message__pinned {
+	background: #42251d !important;
+	color: #f9c4ad !important;
+	border: none !important;
+}
+
+.s-chat-message_timestamp {
+	color: #f89172 !important;
+}
+
+div#chatMessageContainer {
+	border: none !important;
+}
+
+/* CURRENT CHANNEL TAB (MAIN, SALES, ETC.) */
+button#label_currentChannel {
+	border: none !important;
+	background: #5b2221 !important;
+}
+
+/* BIGGEST HEADER ("___"'s DEN) */
+
+h1 {
+	color: #f47f5e;
+	font-size: 72px;
+	text-align: center;
+}
+
+/* MEDIUM HEADER */
+
+h2 {
+	color: #f47f5e;
+	font-size: 24px;
+	text-align: center;
+}
+
+/* SMALL HEADER */
+
+h3 {
+	color: #f47f5e !important;
+	font-size: 14px !important;
+}
+
+/* LIODEN LOGO REPLACER */
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+	content: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6aea9a72-b071-442b-966e-bc3308037dd7/dbqiwvm-d1f1c778-555c-4dda-ac37-79c5cefd4b7f.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvNmFlYTlhNzItYjA3MS00NDJiLTk2NmUtYmMzMzA4MDM3ZGQ3XC9kYnFpd3ZtLWQxZjFjNzc4LTU1NWMtNGRkYS1hYzM3LTc5YzVjZWZkNGI3Zi5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.IfHJa7ws6GvsLoiWmB2fRGOCrGdZDBUDlJwimtgjopg');
+}
+
+/* SCROLL BAR */
+
+::-webkit-scrollbar {
+	width: 7px;
+	height: 7px;
+}
+
+/* SCROLL BAR BACKGROUND */
+
+::-webkit-scrollbar-track {
+	background: #3d2420;
+}
+
+/* SCROLL BAR "THUMB" */
+
+::-webkit-scrollbar-thumb {
+	background: #a95958;
+	border-radius: 4px;
+}
+
+/* LION AND USER AVATAR OPACITY */
+
+div#lion_image {
+	opacity: 0.5;
+}
+
+table#player img {
+	opacity: 0.5;
+}
+
+/* CIRCULAR LION AND USER AVATAR */
+
+div#lion_image {
+	border-radius: 30% !important;
+	overflow: hidden;
+	margin-top: 17px;
+	margin-left: 6px;
+}
+
+table#player img {
+	border-radius: 50% !important;
+	overflow: hidden;
+}
+
+/* PREGNANT LIONESSES */
+
+div.cave-grid>img {
+	content: url('
